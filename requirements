@@ -1,1 +1,18 @@
+#############################################
+Requisitos para funcionamento do Programa
 
+Selenium é a API utilizada para o desenvolvimento
+das funções no navegador. Ela necessita de um Webdriver,
+neste caso utilizamos o Chromedriver.exe, o driver do navegador do Chrome.
+
+Para a geração do report utilizei o pytest e sua versão html,
+para a geração do report acessível de um arquivo html pela web.
+
+#############################################
+
+INSTALAÇÕES NECESSÁRIAS:
+
+pip install pytest-html
+pip install pytest
+pip install selenium
+Chromedriver.exe
